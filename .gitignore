@@ -1,0 +1,14 @@
+# secrets - never commit
+service_account.json
+*.json.json
+settings.json
+.streamlit/secrets.toml
+# local data / results (contains business contact data)
+output/
+gym_leads.json
+geo_cache.json
+*.csv
+*.xlsx
+__pycache__/
+*.pyc
+.venv/
